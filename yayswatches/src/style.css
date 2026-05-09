@@ -1,0 +1,693 @@
+/* Yay Swatches Design Styles */
+.yay-swatches-color {
+  border-radius: inherit;
+  cursor: pointer;
+  display: block !important;
+  height: var(--yay-swatches-swatch-size);
+  width: var(--yay-swatches-swatch-size);
+}
+
+/* Swatches Design 1 */
+.yay-swatches-swatch--design-1 {
+  display: inline-block;
+  margin: 0px 10px 10px 0px;
+  padding: 3px;
+  box-sizing: content-box;
+  position: relative;
+  border: 2px solid var(--yay-swatches-swatch-border);
+  border-radius: var(--yay-swatches-swatch-border-radius);
+  transition: all 0.25s ease;
+  transition-property: box-shadow, outline, border;
+}
+.yay-swatches-swatch--design-1:hover {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0), 0 0 0 1px #babfc3, 0 0 rgba(0, 0, 0, 0);
+  outline: none;
+  border-color: transparent;
+}
+.yay-swatches-swatch--design-1.yay-swatches-active {
+  border-color: var(--yay-swatches-swatch-border-active);
+  box-shadow: none;
+}
+.yay-swatches-swatch--design-1 .yay-swatches-color {
+  box-shadow: none;
+  border: none;
+  width: calc(var(--yay-swatches-swatch-size) - 6px);
+  height: calc(var(--yay-swatches-swatch-size) - 6px);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Swatches Design 2 */
+.yay-swatches-swatch--design-2 {
+  display: inline-block;
+  margin: 0px 10px 10px 0px;
+  overflow: hidden;
+  box-shadow: none;
+  padding: 0;
+  position: relative;
+  box-sizing: content-box;
+  height: var(--yay-swatches-swatch-size);
+  width: var(--yay-swatches-swatch-size);
+  border-radius: var(--yay-swatches-swatch-border-radius);
+  border: 2px solid var(--yay-swatches-swatch-border);
+  transition: all 0.25s ease;
+  transition-property: box-shadow, outline, border;
+}
+.yay-swatches-swatch--design-2.yay-swatches-active {
+  border-color: var(--yay-swatches-swatch-border-active);
+}
+.yay-swatches-swatch--design-2 .yay-swatches-color {
+  box-shadow: none;
+  border: none;
+  border-radius: calc(var(--yay-swatches-swatch-border-radius) - 2px);
+  transform-origin: center center;
+  transition: transform 0.3s cubic-bezier(0.104, 0.204, 0.492, 1);
+}
+.yay-swatches-swatch--design-2:hover .yay-swatches-color {
+  border-radius: inherit;
+  transform: scale(0.85);
+}
+.yay-swatches-swatch--design-2.yay-swatches-active .yay-swatches-color {
+  border-radius: inherit;
+  transform: scale(0.85);
+}
+
+/* Swatches Design 3 */
+.yay-swatches-swatch--design-3 {
+  display: inline-block;
+  margin: 0px 10px 10px 0px;
+  box-shadow: none;
+  padding: 0;
+  position: relative;
+  box-sizing: content-box;
+  height: var(--yay-swatches-swatch-size);
+  width: var(--yay-swatches-swatch-size);
+  border-radius: var(--yay-swatches-swatch-border-radius);
+  border: 2px solid transparent;
+  transition: all 0.25s ease;
+  transition-property: box-shadow, outline, border;
+}
+.yay-swatches-swatch--design-3:hover {
+  border-color: var(--yay-swatches-swatch-border-active);
+}
+.yay-swatches-swatch--design-3.yay-swatches-active {
+  border-color: var(--yay-swatches-swatch-border-active);
+}
+.yay-swatches-swatch--design-3 .yay-swatches-color {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+  border: none;
+  transform-origin: center center;
+  transform: scale(1.09);
+  transition: all 0.3s ease;
+}
+.yay-swatches-swatch--design-3:hover .yay-swatches-color {
+  box-shadow: none;
+  transform: scale(0.78);
+}
+.yay-swatches-swatch--design-3.yay-swatches-active .yay-swatches-color {
+  box-shadow: none;
+  transform: scale(0.78);
+}
+
+/* Swatches Design 4 */
+.yay-swatches-swatch--design-4 {
+  display: inline-block;
+  margin: 0px 10px 10px 0px;
+  box-shadow: none;
+  padding: 0;
+  position: relative;
+  box-sizing: content-box;
+  height: var(--yay-swatches-swatch-size);
+  width: var(--yay-swatches-swatch-size);
+  border-radius: var(--yay-swatches-swatch-border-radius);
+  border: 2px solid var(--yay-swatches-swatch-border);
+  transition: all 0.25s ease;
+  transition-property: box-shadow, outline, border;
+}
+.yay-swatches-swatch--design-4:hover {
+  border-color: var(--yay-swatches-swatch-border-active);
+}
+.yay-swatches-swatch--design-4.yay-swatches-active {
+  border-color: var(--yay-swatches-swatch-border-active);
+}
+.yay-swatches-swatch--design-4 .yay-swatches-color {
+  box-shadow: none;
+  border: none;
+  transform: scale(0.85);
+  transition: all 0.3s cubic-bezier(0.104, 0.204, 0.492, 1);
+  transform-origin: center center;
+}
+
+/* Swatches Design 6 */
+.yay-swatches-swatch--design-6 {
+  display: inline-block;
+  margin: 0px 10px 10px 0px;
+  box-shadow: none;
+  padding: 0;
+  position: relative;
+  box-sizing: content-box;
+  height: var(--yay-swatches-swatch-size);
+  width: var(--yay-swatches-swatch-size);
+  border-radius: var(--yay-swatches-swatch-border-radius);
+  border: 2px solid transparent;
+  transition: all 0.25s ease;
+  transition-property: box-shadow, outline, border;
+}
+.yay-swatches-swatch--design-6.yay-swatches-active {
+  outline: none;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px var(--yay-swatches-swatch-border-active);
+}
+.yay-swatches-swatch--design-6 .yay-swatches-color {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+  border: none;
+  transform-origin: center center;
+  transition: all 0.25s ease;
+}
+.yay-swatches-swatch--design-6:hover .yay-swatches-color {
+  transform: scale(1.2);
+}
+.yay-swatches-swatch--design-6.yay-swatches-active .yay-swatches-color {
+  box-shadow: none;
+  transform: scale(1);
+}
+
+:root {
+  /* variables for swatch style */
+  --yay-swatches-swatch-border: 1px solid #ccc;
+  --yay-swatches-swatch-border-active: 2px solid #000;
+  --yay-swatches-swatch-border-radius: 6px;
+  --yay-swatches-swatch-size: 38px;
+  /* variables for button style */
+  --yay-swatches-button: #f0f0f0;
+  --yay-swatches-button-active: #333;
+  --yay-swatches-button-border: 1px solid #999;
+  --yay-swatches-button-border-radius: 4px;
+  --yay-swatches-button-border-active: 2px solid #000;
+  --yay-swatches-button-text: #000;
+  --yay-swatches-button-text-active: #fff;
+  --yay-swatches-button-font-size: 14px;
+  --yay-swatches-button-padding: 6px 12px;
+}
+
+.variations_form .yay-swatch-variant-default-wrapper,
+.variations_form .yay-swatch-variant-default-wrapper select, 
+.variations_form .yay-swatch-variant-default-wrapper .theme-select{
+  display: none !important;
+}
+.bundled_item_cart_content.variations_form.yay-swatch-clicked{
+  display: block !important;
+  height: auto;
+}
+
+.variations_form {
+  visibility: hidden;
+  opacity: 0;
+  height: 0px;
+}
+
+.yay-swatches-wrapper .variations_form.cart .yay-swatches-archive-reset-button .value {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.variations_form.cart .yay-swatch-reset-variations,
+tr.yay-swatches-wc-archive-page.yay-swatches-archive-last .value {
+  margin-bottom: 7px !important;
+}
+
+.yay-swatches-archive-wrapper {
+  margin-bottom: 0.75rem !important;
+}
+
+.yay-swatches-archive-wrapper.yay-swatch-variation-init-called {
+  margin-bottom: 15px !important;
+}
+
+.hide-yay-swatch-class {
+  display: none !important;
+}
+
+.yay-swatches-attribute-term:hover {
+  cursor: pointer;
+}
+
+.yay-swatches-wrapper .variations_form .reset_variations:focus {
+  outline: none;
+}
+
+.yay-swatches-swatch {
+  display: inline-block;
+  box-sizing: content-box;
+  border: 2px solid var(--yay-swatches-swatch-border);
+  border-radius: var(--yay-swatches-swatch-border-radius);
+  margin: 0px 10px 10px 0px;
+  height: var(--yay-swatches-swatch-size);
+  width: var(--yay-swatches-swatch-size);
+  overflow: hidden;
+}
+
+.yay-swatches-swatch .yay-swatches-color {
+  border-radius: calc(var(--yay-swatches-swatch-border-radius) - 2px);
+}
+
+[dir=rtl] .yay-swatches-swatch {
+  margin: 0 0 10px 10px !important;
+}
+
+.yay-swatches-swatch-automated {
+  display: inline-block;
+  border: 2px solid var(--yay-swatches-swatch-border);
+  border-radius: var(--yay-swatches-swatch-border-radius);
+  margin-right: 7px;
+  height: var(--yay-swatches-swatch-size);
+  width: var(--yay-swatches-swatch-size);
+  overflow: hidden;
+}
+
+.yay-swatches-swatch-variant-image {
+  display: inline-block;
+  box-sizing: content-box;
+  border: 2px solid var(--yay-swatches-swatch-border);
+  border-radius: var(--yay-swatches-swatch-border-radius);
+  margin: 0 10px 10px 0px;
+  height: var(--yay-swatches-swatch-size);
+  width: var(--yay-swatches-swatch-size);
+  overflow: hidden;
+}
+
+.yay-swatches-swatch-variant-image .yay-swatches-color {
+  border-radius: calc(var(--yay-swatches-swatch-border-radius) - 2px);
+}
+
+.yay-swatches-action-plus-archive-wrapper .yay-swatches--plus-btn {
+  display: none;
+}
+
+.yay-swatches--plus-btn {
+  cursor: pointer;
+}
+
+.yay-swatches-swatch.yay-swatches--plus-btn {
+  text-align: center;
+  line-height: var(--yay-swatches-swatch-size);
+  font-size: 14px;
+}
+
+.yay-swatches-swatch-variant-image.yay-swatches--plus-btn {
+  text-align: center;
+  line-height: var(--yay-swatches-swatch-size);
+}
+
+.yay-swatches-swatch.yay-swatches-active,
+.yay-swatches-swatch-variant-image.yay-swatches-active {
+  border: 3px solid #fff;
+  outline: none;
+  box-shadow: 0 0 0px 2px var(--yay-swatches-swatch-border-active);
+}
+
+.yay-swatches-tick-selected {
+  position: relative;
+}
+
+.yay-swatches-tick-selected::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(var(--yay-swatches-swatch-size) * 0.2);
+  height: calc(var(--yay-swatches-swatch-size) * 0.4);
+  border-right: calc(var(--yay-swatches-swatch-size) * 0.06) solid var(--yay-swatches-tick-color, #000);
+  border-bottom: calc(var(--yay-swatches-swatch-size) * 0.06) solid var(--yay-swatches-tick-color, #000);
+  transform: translate(-50%, -60%) rotate(45deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.yay-swatches-swatch.yay-swatches-active .yay-swatches-color,
+.yay-swatches-swatch-variant-image.yay-swatches-active .yay-swatches-color {
+  border-radius: inherit;
+}
+
+.yay-swatches-swatch:last-child,
+.yay-swatches-swatch--design-1:last-child,
+.yay-swatches-swatch--design-2:last-child,
+.yay-swatches-swatch--design-3:last-child,
+.yay-swatches-swatch--design-4:last-child,
+.yay-swatches-swatch-automated:last-child,
+.yay-swatches-button:last-child,
+.yay-swatches-swatch-variant-image:last-child{
+  margin-right: 0px;
+}
+
+.yay-swatches-radio-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300 !important;
+  text-align: start !important;
+}
+.yay-swatches-radio-wrapper input{
+  margin-top: 0;
+}
+
+.yay-swatches-swatch-radio{
+  margin-right: 0.4rem;
+}
+
+.yay-swatches-radio-label {
+  margin-right: 1rem;
+}
+
+.yay-swatches-swatch-radio {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.yay-swatches-swatch-radio,
+.yay-swatches-swatch-radio:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.yay-swatches-active .yay-swatches-variant-img {
+  /* border: 2px solid #7b6c6c; */
+  border-radius: var(--yay-swatches-swatch-border-radius);
+}
+
+.yay-swatches-button {
+  display: inline-block;
+  border: var(--yay-swatches-button-border-width) solid var(--yay-swatches-button-border);
+  border-radius: var(--yay-swatches-button-border-radius);
+  background-color: var(--yay-swatches-button);
+  color: var(--yay-swatches-button-text);
+  font-size: var(--yay-swatches-button-font-size);
+  margin-right: 7px;
+  padding: var(--yay-swatches-button-padding);
+  overflow: hidden;
+  line-height: 1;
+}
+
+.yay-swatches-button:hover {
+  background-color: var(--yay-swatches-button-hover);
+  border: var(--yay-swatches-button-border-width) solid var(--yay-swatches-button-border-hover);
+  color: var(--yay-swatches-button-text-hover);
+}
+
+.yay-swatches-button.yay-swatches-active {
+  background-color: var(--yay-swatches-button-active);
+  border: var(--yay-swatches-button-border-width) solid var(--yay-swatches-button-border-active);
+  border-radius: var(--yay-swatches-button-border-radius);
+  color: var(--yay-swatches-button-text-active);
+}
+
+.yay-swatches-out-of-stock {
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.yay-swatches-out-of-stock:before {
+  background-color: #eee;
+  border-top: 2px solid red;
+  content: "";
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  transform: rotate(45deg);
+  transition: 0.25s linear;
+  z-index: 2;
+}
+
+/*******SOLD OUT SWATCHES******/
+.yay-swatches-disabled {
+  position: relative;
+}
+
+.yay-swatches-non-interactive {
+  pointer-events: none !important;
+}
+
+.yay-swatches-disabled-opacity {
+  opacity: 0.6 !important;
+}
+
+.yay-swatches-disabled::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - 6px);
+  border-top: 2px solid red;
+  transform: translate(-50%, -50%) rotate(45deg);
+  opacity: 0.5;
+  z-index: 3;
+  background: transparent;
+}
+
+.yay-swatches-disabled-grayout {
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+
+.yay-swatches-disabled-grayout.yay-swatches-button {
+  background: #fafbfb;
+  border-color: #d2d5d8;
+  box-shadow: none;
+  color: #8c9196;
+  transition: none;
+}
+
+.yay-swatches-disabled-grayout.yay-swatches-button.yay-swatches-active {
+  background-color: var(--yay-swatches-button-active);
+  border: var(--yay-swatches-button-border-width) solid var(--yay-swatches-button-border-active);
+}
+
+.yay-swatches-disabled-hide,
+.yay-swatches-pl-hiden {
+  display: none !important;
+}
+
+.yay-swatches-disabled-hide + .yay-swatches-radio-label {
+  display: none !important;
+}
+
+/*******SOLD OUT SWATCHES******/
+.yay-swatches-wc-archive-page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.yay-swatches-wrapper .variations_form.cart {
+  border: none;
+  border-style: none !important;
+  background: unset;
+}
+
+.yay-swatches-wrapper .price {
+  display: block;
+}
+
+.yay-swatches-wrapper .variations_form.cart .variations th.label,
+.yay-swatches-wrapper .variations_form.cart .variations td.label {
+  padding-left: 0px;
+  margin-left: 0px;
+  text-transform: unset;
+  margin-bottom: 7px;
+  font-size: inherit;
+  font-weight: unset;
+  color: unset;
+  display: unset !important;
+  text-align: inherit;
+}
+
+.yay-swatches-product-details-wrapper .variations_form.cart .variations th.label,
+.yay-swatches-product-details-wrapper .variations_form.cart .variations td.label {
+  /* text-align: left; */
+  text-align: inherit;
+}
+
+.yay-swatches-wrapper .variations_form.cart .variations .value {
+  margin-bottom: 1em;
+  text-align: inherit;
+}
+
+.yay-swatches-attribute-term .yay-swatches-variant-img {
+  pointer-events: none;
+}
+
+.yay-swatches-wrapper .variations_form.cart .variations .reset_variations {
+  float: unset !important;
+  display: inline-block !important;
+}
+
+.yay-swatches-wrapper .variations_form.cart::before,
+.variations_form.cart::after {
+  content: "";
+  display: table;
+}
+
+.yay-swatches-wrapper .variations_form.cart table.variations {
+  table-layout: fixed;
+  margin: 0;
+  background-color: unset;
+  border: none;
+}
+
+.yay-swatches-wrapper .variations_form.cart table.variations th,
+.variations_form.cart table.variations td {
+  display: list-item;
+  padding: 0;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.variations_form.cart table,
+.variations_form.cart table tr,
+.variations_form.cart table td,
+.variations_form.cart table th {
+  border: none;
+}
+
+span.yay-swatches-attribute-preview-wrapper .yay-swatches-attribute-preview {
+  display: unset !important;
+}
+
+/*** SUPPORT THEME***/
+.yay-swatches-wrapper-twentytwenty .yay-variant-wrapper {
+  padding-left: 3px;
+}
+
+.yay-swatches-wrapper-twentytwentytwo .variations_form.cart table.variations {
+  display: grid;
+}
+
+.yay-swatches-wrapper-zella-theme .variations_form.cart table.variations {
+  text-align: center;
+  margin: auto !important;
+}
+
+.yay-swatches-wrapper-savoy .yay-swatches-wc-archive-page .yay-swatches-swatch,
+.yay-swatches-wrapper-savoy .yay-swatches-wc-archive-page .yay-swatches-swatch--design-1,
+.yay-swatches-wrapper-savoy .yay-swatches-wc-archive-page .yay-swatches-swatch--design-2,
+.yay-swatches-wrapper-savoy .yay-swatches-wc-archive-page .yay-swatches-swatch--design-3,
+.yay-swatches-wrapper-savoy .yay-swatches-wc-archive-page .yay-swatches-swatch--design-4 {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.yay-swatches-wrapper-savoy .yay-swatches-wc-archive-page .yay-swatches-swatch-variant-image {
+  margin-left: 5px;
+  margin-right: 2px;
+}
+
+.yay-swatches-wrapper-savoy .variations_form.cart .variations th.label,
+.yay-swatches-wrapper-savoy .variations_form.cart .variations .value,
+.yay-swatches-wrapper-savoy .variations_form.cart .single_variation {
+  border: none;
+}
+
+.yay-swatches-wrapper-savoy .yay-swatches-wc-archive-page td.label {
+  width: 100% !important;
+}
+
+.yay-swatches-wrapper-betheme .variations_form.cart .variations td.label,
+.yay-swatches-wrapper-betheme .variations_form.cart .variations .value {
+  box-shadow: none;
+}
+
+.yay-variant-wrapper {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  row-gap: 7px;
+}
+
+/* css for tippy tooltip */
+.tippy-tooltip[data-animation=fade][data-state=hidden] {
+  opacity: 0;
+}
+
+[data-tippy-root] {
+  max-width: calc(100vw - 10px);
+}
+
+.tippy-tooltip {
+  position: relative;
+  background-color: rgba(20, 20, 20, 0.9);
+  color: #fff;
+  border-radius: 3px;
+  padding: 6px 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+  outline: 0;
+  transition-property: transform, visibility, opacity;
+}
+
+.tippy-tooltip[data-placement^=top] > .tippy-arrow {
+  bottom: 0;
+}
+
+.tippy-tooltip[data-placement^=top] > .tippy-arrow:before {
+  bottom: -7px;
+  left: 0;
+  border-width: 8px 8px 0;
+  border-top-color: initial;
+  transform-origin: center top;
+}
+
+.tippy-tooltip[data-placement^=bottom] > .tippy-arrow {
+  top: 0;
+}
+
+.tippy-tooltip[data-placement^=bottom] > .tippy-arrow:before {
+  top: -7px;
+  left: 0;
+  border-width: 0 8px 8px;
+  border-bottom-color: initial;
+  transform-origin: center bottom;
+}
+
+.tippy-tooltip[data-placement^=left] > .tippy-arrow {
+  right: 0;
+}
+
+.tippy-tooltip[data-placement^=left] > .tippy-arrow:before {
+  border-width: 8px 0 8px 8px;
+  border-left-color: initial;
+  right: -7px;
+  transform-origin: center left;
+}
+
+.tippy-tooltip[data-placement^=right] > .tippy-arrow {
+  left: 0;
+}
+
+.tippy-tooltip[data-placement^=right] > .tippy-arrow:before {
+  left: -7px;
+  border-width: 8px 8px 8px 0;
+  border-right-color: initial;
+  transform-origin: center right;
+}
+
+.tippy-arrow:before {
+  content: "";
+  position: absolute;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.tippy-content {
+  position: relative;
+  padding: 0;
+  z-index: 1;
+}
+
+.tippy-tooltip.shadow-theme {
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3);
+}
