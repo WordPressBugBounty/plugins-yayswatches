@@ -12,7 +12,7 @@
  * Requires at least: 4.7
  * Requires PHP: 5.4
  * WC requires at least: 3.0.0
- * WC tested up to: 10.6.2
+ * WC tested up to: 11.0
  *
  * @package yaycommerce/yayswatches
  */
